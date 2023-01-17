@@ -1,5 +1,6 @@
 package com.solvd.carservice.model;
 
+import java.util.List;
 import java.util.Objects;
 
 public class Shop {
