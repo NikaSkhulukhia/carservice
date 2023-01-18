@@ -3,6 +3,7 @@ package com.solvd.carservice.model;
 import com.solvd.carservice.enums.Color;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Objects;
 
 public class Car {
