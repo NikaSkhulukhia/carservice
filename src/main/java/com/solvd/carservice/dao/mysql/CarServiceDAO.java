@@ -1,11 +1,8 @@
 package com.solvd.carservice.dao.mysql;
 
-import com.solvd.carservice.dao.IUserDAO;
-import com.solvd.carservice.model.User;
+import com.solvd.carservice.dao.ICarServiceDAO;
 
-import java.util.List;
-
-public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
+public class CarServiceDAO extends AbstractMysqlDAO implements ICarServiceDAO {
     @Override
     public Object getEntityById(long id) {
         return null;
@@ -24,10 +21,5 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
     @Override
     public void removeEntity(Object entity) {
 
-    }
-
-    @Override
-    public List<User> getAllUsers() {
-        return null;
     }
 }
