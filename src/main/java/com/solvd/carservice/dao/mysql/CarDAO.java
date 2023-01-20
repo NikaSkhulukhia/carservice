@@ -36,4 +36,9 @@ public class CarDAO extends AbstractMysqlDAO implements ICarDAO {
     public Car getCarByUserId(long userId) {
         return null;
     }
+
+    @Override
+    public List<Car> getCarsByUserId(long id) {
+        return null;
+    }
 }
