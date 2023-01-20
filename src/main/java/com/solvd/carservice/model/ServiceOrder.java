@@ -7,11 +7,11 @@ import java.util.Objects;
 
 public class ServiceOrder {
     private long id;
-    private ServiceStation serviceStation;
-    private Car car;
-    private CarService carService;
+    private long serviceStationId;
+    private long carId;
+    private long carServiceId;
+    private long userId;
     private Date date;
-    private User user;
     private ServiceStatus serviceStatus;
 
     public ServiceOrder() {
@@ -23,23 +23,23 @@ public class ServiceOrder {
         if (o == null || getClass() != o.getClass()) return false;
         if (this.hashCode() != o.hashCode()) return false;
         ServiceOrder that = (ServiceOrder) o;
-        return id == that.id && Objects.equals(serviceStation, that.serviceStation) && Objects.equals(car, that.car) && Objects.equals(carService, that.carService) && Objects.equals(date, that.date) && Objects.equals(user, that.user) && serviceStatus == that.serviceStatus;
+        return id == that.id && serviceStationId == that.serviceStationId && carId == that.carId && carServiceId == that.carServiceId && userId == that.userId && Objects.equals(date, that.date) && serviceStatus == that.serviceStatus;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, serviceStation, car, carService, date, user, serviceStatus);
+        return Objects.hash(id, serviceStationId, carId, carServiceId, userId, date, serviceStatus);
     }
 
     @Override
     public String toString() {
         return "ServiceOrder{" +
                 "id=" + id +
-                ", serviceStation=" + serviceStation +
-                ", car=" + car +
-                ", carService=" + carService +
+                ", serviceStationId=" + serviceStationId +
+                ", carId=" + carId +
+                ", carServiceId=" + carServiceId +
+                ", userId=" + userId +
                 ", date=" + date +
-                ", user=" + user +
                 ", serviceStatus=" + serviceStatus +
                 '}';
     }
@@ -52,28 +52,36 @@ public class ServiceOrder {
         this.id = id;
     }
 
-    public ServiceStation getServiceStation() {
-        return serviceStation;
+    public long getServiceStationId() {
+        return serviceStationId;
     }
 
-    public void setServiceStation(ServiceStation serviceStation) {
-        this.serviceStation = serviceStation;
+    public void setServiceStationId(long serviceStationId) {
+        this.serviceStationId = serviceStationId;
     }
 
-    public Car getCar() {
-        return car;
+    public long getCarId() {
+        return carId;
     }
 
-    public void setCar(Car car) {
-        this.car = car;
+    public void setCarId(long carId) {
+        this.carId = carId;
     }
 
-    public CarService getCarService() {
-        return carService;
+    public long getCarServiceId() {
+        return carServiceId;
     }
 
-    public void setCarService(CarService carService) {
-        this.carService = carService;
+    public void setCarServiceId(long carServiceId) {
+        this.carServiceId = carServiceId;
+    }
+
+    public long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(long userId) {
+        this.userId = userId;
     }
 
     public Date getDate() {
@@ -82,14 +90,6 @@ public class ServiceOrder {
 
     public void setDate(Date date) {
         this.date = date;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
     }
 
     public ServiceStatus getServiceStatus() {

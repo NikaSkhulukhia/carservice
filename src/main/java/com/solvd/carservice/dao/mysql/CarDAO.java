@@ -73,10 +73,6 @@ public class CarDAO extends AbstractMysqlDAO implements ICarDAO {
             ConnectionPool.getInstance().putback(connection);
             LOGGER.info(e);
             return null;
-        } finally{
-            // TODO
-            // where to close rs and ps?
-            // do we need connection put back here too?
         }
         return cars;
     }
