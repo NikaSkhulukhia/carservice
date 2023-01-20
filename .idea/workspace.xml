@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ab92e97f-c654-4a3c-8150-1bc5b13a9859" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/CarDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/CarDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ServiceOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ServiceOrderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ShopOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ShopOrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/util/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/util/ConnectionPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <workItem from="1673822803065" duration="18470000" />
       <workItem from="1673985710127" duration="3420000" />
       <workItem from="1674031032469" duration="6090000" />
-      <workItem from="1674062967535" duration="19167000" />
+      <workItem from="1674062967535" duration="21974000" />
     </task>
     <servers />
   </component>

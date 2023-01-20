@@ -1,0 +1,55 @@
+2023-01-20 15:55:29,677 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 15:55:29,692 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 15:55:29,699 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 15:55:29,700 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 15:55:29,701 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:22:45,563 INFO c.s.c.Main [main] START
+2023-01-20 16:22:45,582 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:22:45,582 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:22:45,583 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:22:45,583 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:22:45,584 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:38:06,340 INFO c.s.c.Main [main] START
+2023-01-20 16:38:06,357 INFO c.s.c.u.ConnectionPool [main] url: null
+2023-01-20 16:38:06,357 INFO c.s.c.u.ConnectionPool [main] userName: null
+2023-01-20 16:42:53,435 INFO c.s.c.Main [main] START
+2023-01-20 16:42:53,451 INFO c.s.c.u.ConnectionPool [main] java.io.FileNotFoundException: C:\SolvdLaba\tasks\CarService\src\main\resources\database.properties (The system cannot find the file specified)
+2023-01-20 16:42:53,452 INFO c.s.c.u.ConnectionPool [main] url: null
+2023-01-20 16:42:53,454 INFO c.s.c.u.ConnectionPool [main] userName: null
+2023-01-20 16:42:53,454 INFO c.s.c.u.ConnectionPool [main] password: null
+2023-01-20 16:42:53,457 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:42:53,457 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:42:53,458 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:42:53,458 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:42:53,459 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:43:59,028 INFO c.s.c.Main [main] START
+2023-01-20 16:43:59,040 INFO c.s.c.u.ConnectionPool [main] java.io.FileNotFoundException: C:\SolvdLaba\tasks\CarService\src\main\resources\database.properties (The system cannot find the file specified)
+2023-01-20 16:43:59,041 INFO c.s.c.u.ConnectionPool [main] url: null
+2023-01-20 16:43:59,042 INFO c.s.c.u.ConnectionPool [main] userName: null
+2023-01-20 16:43:59,042 INFO c.s.c.u.ConnectionPool [main] password: null
+2023-01-20 16:43:59,045 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:43:59,046 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:43:59,046 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:43:59,046 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:43:59,047 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:47:57,044 INFO c.s.c.Main [main] START
+2023-01-20 16:47:57,059 INFO c.s.c.u.ConnectionPool [main] url: null
+2023-01-20 16:47:57,060 INFO c.s.c.u.ConnectionPool [main] userName: null
+2023-01-20 16:47:57,060 INFO c.s.c.u.ConnectionPool [main] password: null
+2023-01-20 16:47:57,063 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:47:57,064 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:47:57,064 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:47:57,065 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:47:57,065 INFO c.s.c.u.ConnectionPool [main] java.sql.SQLException: The url cannot be null
+2023-01-20 16:49:30,215 INFO c.s.c.Main [main] START
+2023-01-20 16:49:30,230 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-20 16:49:30,231 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-20 16:49:30,231 INFO c.s.c.u.ConnectionPool [main] userName: root
+2023-01-20 16:49:30,232 INFO c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-20 16:49:31,399 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@31aa3ca5
+2023-01-20 16:49:31,456 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@328cf0e1
+2023-01-20 16:49:31,464 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
+2023-01-20 16:49:31,480 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75459c75
+2023-01-20 16:49:31,481 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-20 16:49:31,482 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
+2023-01-20 16:49:31,542 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}

@@ -37,14 +37,22 @@ public class ConnectionPool {
         return instance;
     }
     static {
-        try (FileInputStream f = new FileInputStream("src/main/resources/mysql.properties")) {
+        //C:\SolvdLaba\tasks\CarService
+        try (FileInputStream f = new FileInputStream("C:\\SolvdLaba\\tasks\\CarService\\src\\main\\resources\\mysql.properties")) {
             p.load(f);
+            LOGGER.info("file loaded: ");
         } catch (IOException e) {
             LOGGER.info(e);
         }
         url = p.getProperty("url");
-        userName = p.getProperty("userName");
+        LOGGER.info("url: " + url);
+
+        userName = p.getProperty("username");
+        LOGGER.info("userName: " + userName);
+
         password = p.getProperty("password");
+        LOGGER.info("password: " + password);
+
     }
     private Connection getConnection() {
         Connection conn = null;
