@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab92e97f-c654-4a3c-8150-1bc5b13a9859" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/ICarDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/ICarDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/IServiceOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/IServiceOrderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/IShopOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/IShopOrderDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/CarDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/CarDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,7 +73,7 @@
       <workItem from="1673822803065" duration="18470000" />
       <workItem from="1673985710127" duration="3420000" />
       <workItem from="1674031032469" duration="6090000" />
-      <workItem from="1674062967535" duration="12271000" />
+      <workItem from="1674062967535" duration="16398000" />
     </task>
     <servers />
   </component>

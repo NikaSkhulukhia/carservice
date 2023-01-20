@@ -44,7 +44,6 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
             // where to close rs and ps?
             // do we need connection put back here too?
         }
-
     }
 
     @Override
