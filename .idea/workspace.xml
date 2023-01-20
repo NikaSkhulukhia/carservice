@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/CarDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/CarDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ServiceOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ServiceOrderDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ShopOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/ShopOrderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/ServiceOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/ServiceOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <workItem from="1673822803065" duration="18470000" />
       <workItem from="1673985710127" duration="3420000" />
       <workItem from="1674031032469" duration="6090000" />
-      <workItem from="1674062967535" duration="18355000" />
+      <workItem from="1674062967535" duration="19167000" />
     </task>
     <servers />
   </component>

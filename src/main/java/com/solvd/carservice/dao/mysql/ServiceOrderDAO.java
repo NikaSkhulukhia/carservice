@@ -54,7 +54,7 @@ public class ServiceOrderDAO extends AbstractMysqlDAO implements IServiceOrderDA
                     serviceOrder.setCarServiceId(resultSet.getLong("id"));
                     serviceOrder.setDate(resultSet.getDate("id"));
                     serviceOrder.setUserId(resultSet.getLong("id"));
-                    serviceOrder.setServiceStatus(ServiceStatus.valueOf(resultSet.getString("id")));
+                    serviceOrder.setServiceStatus(ServiceStatus.valueOf(resultSet.getString("id").toUpperCase()));
                     serviceOrders.add(serviceOrder);
                     return serviceOrders;
                 }

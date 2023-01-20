@@ -64,7 +64,7 @@ public class CarDAO extends AbstractMysqlDAO implements ICarDAO {
                     c.setBrandModelId(resultSet.getLong("brand_model_id"));
                     c.setLicensePlate(resultSet.getString("license_plate"));
                     c.setCurrentMileage(resultSet.getString("current_mileage"));
-                    c.setColor(Color.valueOf(resultSet.getString("color")));
+                    c.setColor(Color.valueOf(resultSet.getString("color").toUpperCase()));
                     cars.add(c);
                     return cars;
                 }
