@@ -1,0 +1,46 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="brandclassList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="brandclass" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="id"/>
+                            <xs:element type="xs:string" name="name"/>
+                            <xs:element type="xs:string" name="countryOfOrigin"/>
+                            <xs:element name="carBrandModels">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="carBrandModel" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:byte" name="id"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cars">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:byte" name="id"/>
+                                                    <xs:element type="xs:short" name="year"/>
+                                                    <xs:element type="xs:byte" name="modelID"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

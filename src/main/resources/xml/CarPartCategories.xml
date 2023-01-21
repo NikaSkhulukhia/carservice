@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categoryclassList>
+    <categoryclass>
+        <id>1</id>
+        <name>Engine</name>
+        <carParts>
+            <carPart>
+                <id>1</id>
+                <name>Piston</name>
+            </carPart>
+            <carPart>
+                <id>2</id>
+                <name>Valve</name>
+            </carPart>
+        </carParts>
+    </categoryclass>
+    <categoryclass>
+        <id>2</id>
+        <name>Transmission</name>
+        <carParts>
+            <carPart>
+                <id>1</id>
+                <name>Gear</name>
+            </carPart>
+            <carPart>
+                <id>2</id>
+                <name>Clutch</name>
+            </carPart>
+        </carParts>
+    </categoryclass>
+    <categoryclass>
+        <id>3</id>
+        <name>Suspension</name>
+        <carParts>
+            <carPart>
+                <id>1</id>
+                <name>Shock Absorber</name>
+            </carPart>
+            <carPart>
+                <id>2</id>
+                <name>Spring</name>
+            </carPart>
+        </carParts>
+    </categoryclass>
+</categoryclassList>

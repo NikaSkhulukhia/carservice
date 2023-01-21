@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopOrderList>
+    <ShopOrder>
+        <id>1</id>
+        <userId>1</userId>
+        <shopId>1</shopId>
+        <carPartsId>1</carPartsId>
+        <date>2022-12-01</date>
+        <orderStatus>Processing</orderStatus>
+    </ShopOrder>
+    <ShopOrder>
+        <id>2</id>
+        <userId>2</userId>
+        <shopId>2</shopId>
+        <carPartsId>2</carPartsId>
+        <date>2022-12-15</date>
+        <orderStatus>Completed</orderStatus>
+    </ShopOrder>
+</ShopOrderList>

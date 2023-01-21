@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarBrandModelList>
+    <CarBrandModel>
+        <id>1</id>
+        <name>Mustang</name>
+        <carBrandId>1</carBrandId>
+        <fuelType>Petrol</fuelType>
+        <transmission>Automatic</transmission>
+        <cars>
+            <car>
+                <id>1</id>
+                <userId>1</userId>
+                <carBrandId>1</carBrandId>
+            </car>
+            <car>
+                <id>2</id>
+                <userId>2</userId>
+                <carBrandId>1</carBrandId>
+            </car>
+        </cars>
+    </CarBrandModel>
+    <CarBrandModel>
+        <id>2</id>
+        <name>F150</name>
+        <carBrandId>1</carBrandId>
+        <fuelType>Diesel</fuelType>
+        <transmission>Automatic</transmission>
+        <cars>
+            <car>
+                <id>3</id>
+                <userId>3</userId>
+                <carBrandId>1</carBrandId>
+            </car>
+            <car>
+                <id>4</id>
+                <userId>4</userId>
+                <carBrandId>1</carBrandId>
+            </car>
+        </cars>
+    </CarBrandModel>
+</CarBrandModelList>

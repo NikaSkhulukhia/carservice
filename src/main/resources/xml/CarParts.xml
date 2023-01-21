@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarPartList>
+    <CarPart>
+        <id>1</id>
+        <name>Piston</name>
+        <serialNumber>ABC123</serialNumber>
+        <price>50.99</price>
+        <carPartCategoryId>1</carPartCategoryId>
+        <shopId>1</shopId>
+    </CarPart>
+    <CarPart>
+        <id>2</id>
+        <name>Valve</name>
+        <serialNumber>DEF456</serialNumber>
+        <price>25.99</price>
+        <carPartCategoryId>1</carPartCategoryId>
+        <shopId>2</shopId>
+    </CarPart>
+</CarPartList>

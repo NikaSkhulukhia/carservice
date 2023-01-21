@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<brandclassList>
+    <brandclass>
+        <id>1</id>
+        <name>Ford</name>
+        <countryOfOrigin>United States</countryOfOrigin>
+        <carBrandModels>
+            <carBrandModel>
+                <id>1</id>
+                <name>Mustang</name>
+            </carBrandModel>
+            <carBrandModel>
+                <id>2</id>
+                <name>F150</name>
+            </carBrandModel>
+        </carBrandModels>
+        <cars>
+            <car>
+                <id>1</id>
+                <year>2018</year>
+                <modelID>1</modelID>
+            </car>
+            <car>
+                <id>2</id>
+                <year>2020</year>
+                <modelID>2</modelID>
+            </car>
+        </cars>
+    </brandclass>
+    <brandclass>
+        <id>2</id>
+        <name>Toyota</name>
+        <countryOfOrigin>Japan</countryOfOrigin>
+        <carBrandModels>
+            <carBrandModel>
+                <id>1</id>
+                <name>Camry</name>
+            </carBrandModel>
+            <carBrandModel>
+                <id>2</id>
+                <name>Corolla</name>
+            </carBrandModel>
+        </carBrandModels>
+        <cars>
+            <car>
+                <id>1</id>
+                <year>2016</year>
+                <modelID>1</modelID>
+            </car>
+            <car>
+                <id>2</id>
+                <year>2018</year>
+                <modelID>2</modelID>
+            </car>
+        </cars>
+    </brandclass>
+</brandclassList>
