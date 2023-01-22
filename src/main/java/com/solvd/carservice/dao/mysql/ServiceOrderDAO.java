@@ -60,9 +60,10 @@ public class ServiceOrderDAO extends AbstractMysqlDAO implements IServiceOrderDA
                 }
             }
         } catch (SQLException e) {
-            ConnectionPool.getInstance().putback(connection);
             LOGGER.info(e);
             return null;
+        } finally{
+            ConnectionPool.getInstance().putback(connection);
         }
         return serviceOrders;
     }

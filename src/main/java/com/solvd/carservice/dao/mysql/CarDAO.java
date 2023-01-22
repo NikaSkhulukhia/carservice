@@ -70,9 +70,10 @@ public class CarDAO extends AbstractMysqlDAO implements ICarDAO {
                 }
             }
         } catch (SQLException e) {
-            ConnectionPool.getInstance().putback(connection);
             LOGGER.info(e);
             return null;
+        } finally{
+            ConnectionPool.getInstance().putback(connection);
         }
         return cars;
     }

@@ -59,9 +59,10 @@ public class ShopOrderDAO extends AbstractMysqlDAO implements IShopOrderDAO {
                 }
             }
         } catch (SQLException e) {
-            ConnectionPool.getInstance().putback(connection);
             LOGGER.info(e);
             return null;
+        } finally{
+            ConnectionPool.getInstance().putback(connection);
         }
         return shopOrders;
     }

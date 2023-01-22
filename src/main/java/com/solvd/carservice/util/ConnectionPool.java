@@ -45,13 +45,13 @@ public class ConnectionPool {
             LOGGER.info(e);
         }
         url = p.getProperty("url");
-        LOGGER.info("url: " + url);
+        LOGGER.trace("url: " + url);
 
         userName = p.getProperty("username");
-        LOGGER.info("userName: " + userName);
+        LOGGER.trace("userName: " + userName);
 
         password = p.getProperty("password");
-        LOGGER.info("password: " + password);
+        LOGGER.trace("password: " + password);
 
     }
     private Connection getConnection() {

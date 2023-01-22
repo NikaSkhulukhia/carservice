@@ -19,24 +19,24 @@ public class Main {
     private static final Logger LOGGER = LogManager.getLogger();
 
     public static void main(String[] args) {
-        LOGGER.info("START");
+        LOGGER.trace("START");
 
         // test user service and getUserById method
         UserService userv = new UserService();
         User testUser = userv.getUserById(1);
-        LOGGER.info("user: " + testUser.toString());
+        LOGGER.trace("user: " + testUser.toString());
 
         // STAX xml parser for car part objects
-        LOGGER.info("Parse xml using STAX");
+        LOGGER.trace("Parse xml using STAX");
         List<CarPart> carParts = parseCarParts("src/main/resources/xml/CarParts.xml");
         for (CarPart carPart : carParts) {
             System.out.println(carPart.getId() + " " + carPart.getName() + " " + carPart.getSerialNumber());
         }
-        LOGGER.info("Parse done using STAX");
+        LOGGER.trace("Parse done using STAX");
 
         // JAXB xml parser for user objects
         // Creating the JAXB context
-        LOGGER.info("Parse xml using JAXB");
+        LOGGER.trace("Parse xml using JAXB");
         JAXBContext jaxbContext = null;
         try {
             jaxbContext = JAXBContext.newInstance(User.class);
@@ -48,13 +48,13 @@ public class Main {
             // Unmarshaller - The process of converting an XML document to a Java object.
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
             User user = (User) unmarshaller.unmarshal(xmlFile);
-            LOGGER.info("user from jaxb unmarshall: " + user.toString());
+            LOGGER.trace("user from jaxb unmarshall: " + user.toString());
         } catch (JAXBException e) {
             LOGGER.info(e);
         }
-        LOGGER.info("Parse done using JAXB");
+        LOGGER.trace("Parse done using JAXB");
 
         // END main
-        LOGGER.info("END");
+        LOGGER.trace("END");
     }
 }

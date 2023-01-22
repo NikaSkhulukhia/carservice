@@ -36,13 +36,10 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
                 }
             }
         } catch (SQLException e) {
-            ConnectionPool.getInstance().putback(connection);
             LOGGER.info(e);
             return null;
         } finally{
-            // TODO
-            // where to close rs and ps?
-            // do we need connection put back here too?
+            ConnectionPool.getInstance().putback(connection);
         }
     }
 
