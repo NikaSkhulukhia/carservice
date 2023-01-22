@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<User>
+    <id>0</id>
+    <firstName>Jane</firstName>
+    <lastName>Doe</lastName>
+    <idNumber>0987654321</idNumber>
+    <phone>0987654321</phone>
+    <email>janedoe@email.com</email>
+    <address>456 Park Ave</address>
+    <memberSince>2022-01-01T00:00:00+04:00</memberSince>
+    <Cars>
+        <Car>
+            <brandModelId>3</brandModelId>
+            <carBrandId>3</carBrandId>
+            <color>BLACK</color>
+            <currentMileage>150000</currentMileage>
+            <id>3</id>
+            <licensePlate>MNO112</licensePlate>
+            <userId>1</userId>
+            <year>2022-06-01T00:00:00+04:00</year>
+        </Car>
+    </Cars>
+    <ShopOrders>
+        <ShopOrder>
+            <carPartsId>1</carPartsId>
+            <date>2022-07-01T00:00:00+04:00</date>
+            <id>1</id>
+            <orderStatus>PENDING</orderStatus>
+            <shopId>1</shopId>
+            <userId>1</userId>
+        </ShopOrder>
+    </ShopOrders>
+</User>
