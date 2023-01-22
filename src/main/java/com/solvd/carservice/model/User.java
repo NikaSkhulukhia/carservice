@@ -1,9 +1,13 @@
 package com.solvd.carservice.model;
 
+import javax.xml.bind.annotation.*;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
+
+@XmlRootElement(name="User")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class User {
     private long id;
     private String firstName;
@@ -13,8 +17,14 @@ public class User {
     private String email;
     private String address;
     private Date memberSince;
+    @XmlElementWrapper(name="Cars")
+    @XmlElement(name="Car")
     private List<Car> cars;
+    @XmlElementWrapper(name="ServiceOrders")
+    @XmlElement(name="ServiceOrder")
     private List<ServiceOrder> serviceOrders;
+    @XmlElementWrapper(name="ShopOrders")
+    @XmlElement(name="ShopOrder")
     private List<ShopOrder> shopOrders;
 
     public User() {
