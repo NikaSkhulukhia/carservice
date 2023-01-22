@@ -30,7 +30,7 @@ public class Main {
         LOGGER.trace("Parse xml using STAX");
         List<CarPart> carParts = parseCarParts("src/main/resources/xml/CarParts.xml");
         for (CarPart carPart : carParts) {
-            System.out.println(carPart.getId() + " " + carPart.getName() + " " + carPart.getSerialNumber());
+            LOGGER.trace(carPart.getId() + " " + carPart.getName() + " " + carPart.getSerialNumber());
         }
         LOGGER.trace("Parse done using STAX");
 

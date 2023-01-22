@@ -23,4 +23,20 @@ public class UserService {
         u.setShopOrders(shopOrderDAO.getShopOrdersByUserId(id));
         return u;
     }
+
+    public User createNewUser(User u) {
+        uDAO.createEntity(u);
+        return u;
+    }
+
+    public User updateUser(User u) {
+        uDAO.updateEntity(u);
+        return u;
+    }
+
+    public void deleteUser(User u) {
+        uDAO.removeEntity(u);
+    }
+
+    
 }

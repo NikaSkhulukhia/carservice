@@ -18,10 +18,34 @@ import java.util.List;
 public class CarDAO extends AbstractMysqlDAO implements ICarDAO {
     private static final Logger LOGGER = LogManager.getLogger(UserDAO.class);
     private static final String GET_CARS_BY_USER_ID = "SELECT * FROM Cars Where user_id = ?";
+    private static final String GET_CAR_BY_ID = "SELECT * FROM Cars Where id = ?";
     @Override
-    public Object getEntityById(long id) {
-        return null;
+    public Car getEntityById(long id) {
+        Connection connection = ConnectionPool.getInstance().retrieve();
+        Car car = new Car();
+        try (PreparedStatement statement = connection.prepareStatement(GET_CAR_BY_ID)) {
+            statement.setLong(1, id);
+            try (ResultSet resultSet = statement.executeQuery()) {
+                while (resultSet.next()) {
+                    car.setId(resultSet.getLong("id"));
+                    car.setUserId(resultSet.getLong("user_id"));
+                    car.setYear(resultSet.getDate("year"));
+                    car.setCarBrandId(resultSet.getLong("car_brand_id"));
+                    car.setBrandModelId(resultSet.getLong("brand_model_id"));
+                    car.setLicensePlate(resultSet.getString("license_plate"));
+                    car.setCurrentMileage(resultSet.getString("current_mileage"));
+                    car.setColor(Color.valueOf(resultSet.getString("color").toUpperCase()));
+                }
+            }
+        } catch (SQLException e) {
+            LOGGER.info(e);
+            return null;
+        } finally{
+            ConnectionPool.getInstance().putback(connection);
+        }
+        return car;
     }
+
 
     @Override
     public Object createEntity(Object entity) {
@@ -40,11 +64,6 @@ public class CarDAO extends AbstractMysqlDAO implements ICarDAO {
 
     @Override
     public List<Car> getAllCars() {
-        return null;
-    }
-
-    @Override
-    public Car getCarByUserId(long userId) {
         return null;
     }
 

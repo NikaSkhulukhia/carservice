@@ -50,9 +50,12 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
 
     @Override
     public Object createEntity(Object entity) {
+        if (!(entity instanceof User)) {
+            return null;
+        }
         User user = (User) entity;
         Connection connection = ConnectionPool.getInstance().retrieve();
-        try (PreparedStatement statement = connection.prepareStatement(ADD_USER)) {
+        try (PreparedStatement statement = connection.prepareStatement(ADD_USER, Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, user.getFirstName());
             statement.setString(2, user.getLastName());
             statement.setString(3, user.getIdNumber());
@@ -61,6 +64,10 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
             statement.setString(6, user.getAddress());
             statement.setDate(7, (Date) user.getMemberSince());
             statement.executeUpdate();
+            ResultSet generatedKeys = statement.getGeneratedKeys();
+            if (generatedKeys.next()) {
+                user.setId(generatedKeys.getLong(1));
+            }
             return user;
         } catch (SQLException e) {
             LOGGER.info(e);
@@ -69,6 +76,8 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
             ConnectionPool.getInstance().putback(connection);
         }
     }
+
+
 
     @Override
     public Object updateEntity(Object entity) {

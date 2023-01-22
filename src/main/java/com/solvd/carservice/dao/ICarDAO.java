@@ -6,6 +6,5 @@ import java.util.List;
 
 public interface ICarDAO extends IBaseDAO{
     List<Car> getAllCars();
-    Car getCarByUserId(long userId);
     List<Car> getCarsByUserId(long id);
 }
