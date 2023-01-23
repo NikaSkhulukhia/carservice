@@ -78,7 +78,6 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
     }
 
 
-
     @Override
     public Object updateEntity(Object entity) {
         User user = (User) entity;

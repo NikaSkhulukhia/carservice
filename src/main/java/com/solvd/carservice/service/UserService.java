@@ -27,13 +27,13 @@ public class UserService {
     }
 
     public User createNewUser(User u) {
-        uDAO.createEntity(u);
-        return u;
+        User createdUser =(User) uDAO.createEntity(u);
+        return createdUser;
     }
 
     public User updateUser(User u) {
-        uDAO.updateEntity(u);
-        return u;
+        User updatedUser = (User) uDAO.updateEntity(u);
+        return updatedUser;
     }
 
     public void deleteUser(User u) {

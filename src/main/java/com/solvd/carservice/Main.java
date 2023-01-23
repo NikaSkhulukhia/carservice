@@ -69,6 +69,32 @@ public class Main {
         LOGGER.trace("testUser3 auto generated id = " + testUser3.getId());
         LOGGER.trace("End Test createEntity");
 
+        LOGGER.trace("Test updateEntity");
+        testUser3.setEmail("bobbybean@example.com");
+        testUser3.setPhone("333-333-3333");
+        testUser3 = userService.updateUser(testUser3);
+        User testUser3b = userService.getUserById(4);
+        LOGGER.trace("testUser3 updated mail: " + testUser3b.getEmail());
+        LOGGER.trace("testUser3 updated phone: " + testUser3b.getPhone());
+        // TODO
+        // user was not updated.
+        LOGGER.trace("End Test updateEntity");
+
+        LOGGER.trace("Test removeEntity");
+        userService.deleteUser(testUser3b);
+        User removedUser = userService.getUserById(4);
+        if (removedUser == null){
+            LOGGER.trace("testUser3 was deleted from the database.");
+        } else {
+            LOGGER.trace("testUser3 was NOT deleted from the database.");
+        }
+        // TODO
+        // user was not deleted from the database
+        LOGGER.trace("End Test removeEntity");
+
+
+
+
         // END main
         LOGGER.trace("END");
     }
