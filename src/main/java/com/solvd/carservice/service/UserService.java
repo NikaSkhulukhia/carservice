@@ -10,6 +10,8 @@ import com.solvd.carservice.dao.mysql.ShopOrderDAO;
 import com.solvd.carservice.dao.mysql.UserDAO;
 import com.solvd.carservice.model.User;
 
+import java.util.List;
+
 public class UserService {
     private IUserDAO uDAO = new UserDAO();
     private ICarDAO cDAO = new CarDAO();
@@ -38,5 +40,8 @@ public class UserService {
         uDAO.removeEntity(u);
     }
 
-    
+    public List<User> getAllUsers() {
+        List<User> allUsers = uDAO.getAllUsers();
+        return allUsers;
+    }
 }

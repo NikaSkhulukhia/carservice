@@ -1,235 +1,126 @@
-2023-01-22 11:50:19,057 INFO c.s.c.Main [main] START
-2023-01-22 11:50:19,088 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 11:50:19,089 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 11:50:19,089 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 11:50:19,090 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 11:50:19,993 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@13cf7d52
-2023-01-22 11:50:20,107 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@24b6b8f6
-2023-01-22 11:50:20,120 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@4ee37ca3
-2023-01-22 11:50:20,135 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@4ee37ca3
-2023-01-22 11:50:20,136 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 11:50:20,137 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@4ee37ca3
-2023-01-22 11:50:20,185 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 11:50:20,185 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 11:50:20,267 INFO c.s.c.Main [main] Parse done
-2023-01-22 11:50:20,269 INFO c.s.c.Main [main] END
-2023-01-22 11:54:13,946 INFO c.s.c.Main [main] START
-2023-01-22 11:54:13,962 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 11:54:13,963 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 11:54:13,963 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 11:54:13,964 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 11:54:14,702 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@31aa3ca5
-2023-01-22 11:54:14,743 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@328cf0e1
-2023-01-22 11:54:14,749 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 11:54:14,758 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 11:54:14,759 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 11:54:14,760 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 11:54:14,804 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 11:54:14,804 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 11:54:14,847 INFO c.s.c.Main [main] Parse done
-2023-01-22 11:54:14,847 INFO c.s.c.Main [main] END
-2023-01-22 12:01:46,647 INFO c.s.c.Main [main] START
-2023-01-22 12:01:46,662 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 12:01:46,663 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 12:01:46,664 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 12:01:46,664 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 12:01:48,539 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@31aa3ca5
-2023-01-22 12:01:48,577 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@328cf0e1
-2023-01-22 12:01:48,582 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 12:01:48,591 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 12:01:48,592 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 12:01:48,593 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 12:01:48,634 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 12:01:48,634 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 12:01:48,697 INFO c.s.c.Main [main] Parse done
-2023-01-22 12:01:48,698 INFO c.s.c.Main [main] END
-2023-01-22 12:03:35,685 INFO c.s.c.Main [main] START
-2023-01-22 12:03:35,698 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 12:03:35,699 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 12:03:35,699 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 12:03:35,700 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 12:03:36,505 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@31aa3ca5
-2023-01-22 12:03:36,546 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@328cf0e1
-2023-01-22 12:03:36,550 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 12:03:36,562 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 12:03:36,563 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 12:03:36,564 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75459c75
-2023-01-22 12:03:36,610 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 12:03:36,611 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 12:03:36,653 INFO c.s.c.Main [main] Parse done
-2023-01-22 12:03:36,653 INFO c.s.c.Main [main] END
-2023-01-22 14:32:13,332 INFO c.s.c.Main [main] START
-2023-01-22 14:32:13,346 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 14:32:13,347 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 14:32:13,347 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 14:32:13,348 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 14:32:14,278 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3543df7d
-2023-01-22 14:32:14,342 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3e5499cc
-2023-01-22 14:32:14,349 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2a3c96e3
-2023-01-22 14:32:14,359 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2a3c96e3
-2023-01-22 14:32:14,361 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 14:32:14,361 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2a3c96e3
-2023-01-22 14:32:14,406 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 14:32:14,407 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 14:32:14,463 INFO c.s.c.Main [main] Parse done using STAX
-2023-01-22 14:32:14,463 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 14:32:14,474 INFO c.s.c.Main [main] javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
- - with linked exception:
-[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
-2023-01-22 14:32:14,475 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 14:32:14,475 INFO c.s.c.Main [main] END
-2023-01-22 16:16:40,185 INFO c.s.c.Main [main] START
-2023-01-22 16:16:40,208 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 16:16:40,209 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 16:16:40,210 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 16:16:40,211 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 16:16:41,156 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7c541c15
-2023-01-22 16:16:41,240 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@67ab1c47
-2023-01-22 16:16:41,251 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@15cafec7
-2023-01-22 16:16:41,265 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@15cafec7
-2023-01-22 16:16:41,267 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 16:16:41,267 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@15cafec7
-2023-01-22 16:16:41,319 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 16:16:41,319 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 16:16:41,418 INFO c.s.c.Main [main] Parse done using STAX
-2023-01-22 16:16:41,419 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:16:41,429 INFO c.s.c.Main [main] javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
- - with linked exception:
-[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
-2023-01-22 16:16:41,430 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:16:41,430 INFO c.s.c.Main [main] END
-2023-01-22 16:21:02,694 INFO c.s.c.Main [main] START
-2023-01-22 16:21:02,706 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 16:21:02,706 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 16:21:02,706 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 16:21:02,707 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 16:21:03,464 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@6da00fb9
-2023-01-22 16:21:03,506 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@129b4fe2
-2023-01-22 16:21:03,511 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@58359ebd
-2023-01-22 16:21:03,524 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@58359ebd
-2023-01-22 16:21:03,526 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 16:21:03,526 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@58359ebd
-2023-01-22 16:21:03,580 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 16:21:03,581 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 16:21:03,622 INFO c.s.c.Main [main] Parse done using STAX
-2023-01-22 16:21:03,623 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:21:03,634 INFO c.s.c.Main [main] javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
- - with linked exception:
-[java.lang.ClassNotFoundException: com.sun.xml.bind.v2.ContextFactory]
-2023-01-22 16:21:03,634 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:21:03,635 INFO c.s.c.Main [main] END
-2023-01-22 16:27:15,835 INFO c.s.c.Main [main] START
-2023-01-22 16:27:15,849 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 16:27:15,850 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 16:27:15,850 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 16:27:15,851 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 16:27:16,813 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 16:27:16,860 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1f2f9244
-2023-01-22 16:27:16,865 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:27:16,875 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:27:16,877 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 16:27:16,877 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:27:16,929 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 16:27:16,929 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 16:27:16,979 INFO c.s.c.Main [main] Parse done using STAX
-2023-01-22 16:27:16,980 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:27:17,341 INFO c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
-2023-01-22 16:27:17,343 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:27:17,344 INFO c.s.c.Main [main] END
-2023-01-22 16:29:30,122 INFO c.s.c.Main [main] START
-2023-01-22 16:29:30,132 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 16:29:30,133 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 16:29:30,133 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 16:29:30,133 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 16:29:30,864 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 16:29:30,904 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1f2f9244
-2023-01-22 16:29:30,908 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:29:30,917 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:29:30,918 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 16:29:30,919 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:29:30,964 INFO c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 16:29:30,965 INFO c.s.c.Main [main] Parse xml using STAX
-2023-01-22 16:29:31,004 INFO c.s.c.Main [main] Parse done using STAX
-2023-01-22 16:29:31,005 INFO c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:29:31,339 INFO c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
-2023-01-22 16:29:31,339 INFO c.s.c.Main [main] Parse done using JAXB
-2023-01-22 16:29:31,339 INFO c.s.c.Main [main] END
-2023-01-22 16:34:15,663 TRACE c.s.c.Main [main] START
-2023-01-22 16:34:15,673 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 16:34:15,674 INFO c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 16:34:15,674 INFO c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 16:34:15,675 INFO c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 16:34:16,514 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 16:34:16,557 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1f2f9244
-2023-01-22 16:34:16,562 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:34:16,572 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:34:16,574 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 16:34:16,574 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@505a9d7c
-2023-01-22 16:34:16,629 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 16:34:16,631 TRACE c.s.c.Main [main] Parse xml using STAX
-2023-01-22 16:34:16,683 TRACE c.s.c.Main [main] Parse done using STAX
-2023-01-22 16:34:16,684 TRACE c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 16:34:17,016 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
-2023-01-22 16:34:17,017 TRACE c.s.c.Main [main] Parse done using JAXB
-2023-01-22 16:34:17,017 TRACE c.s.c.Main [main] END
-2023-01-22 17:34:52,170 TRACE c.s.c.Main [main] START
-2023-01-22 17:34:52,185 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 17:34:52,186 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 17:34:52,186 TRACE c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 17:34:52,187 TRACE c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 17:34:53,027 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:34:53,068 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:34:53,069 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:34:53,074 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@338494fa
-2023-01-22 17:34:53,081 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@338494fa
-2023-01-22 17:34:53,082 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 17:34:53,083 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@338494fa
-2023-01-22 17:34:53,129 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 17:34:53,129 TRACE c.s.c.Main [main] Parse xml using STAX
-2023-01-22 17:34:53,180 TRACE c.s.c.Main [main] Parse done using STAX
-2023-01-22 17:34:53,181 TRACE c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 17:34:53,508 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
-2023-01-22 17:34:53,508 TRACE c.s.c.Main [main] Parse done using JAXB
-2023-01-22 17:34:53,509 TRACE c.s.c.Main [main] END
-2023-01-22 17:53:43,063 TRACE c.s.c.Main [main] START
-2023-01-22 17:53:43,074 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 17:53:43,075 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 17:53:43,075 TRACE c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 17:53:43,076 TRACE c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 17:53:43,874 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,913 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,913 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,917 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,918 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,928 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 17:53:43,928 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,929 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,933 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 17:53:43,971 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 17:53:43,972 TRACE c.s.c.Main [main] Parse xml using STAX
-2023-01-22 17:53:44,015 TRACE c.s.c.Main [main] Parse done using STAX
-2023-01-22 17:53:44,015 TRACE c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 17:53:44,416 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
-2023-01-22 17:53:44,417 TRACE c.s.c.Main [main] Parse done using JAXB
-2023-01-22 17:53:44,417 TRACE c.s.c.Main [main] END
-2023-01-22 18:35:14,898 TRACE c.s.c.Main [main] START
-2023-01-22 18:35:14,911 INFO c.s.c.u.ConnectionPool [main] file loaded: 
-2023-01-22 18:35:14,912 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
-2023-01-22 18:35:14,913 TRACE c.s.c.u.ConnectionPool [main] userName: root
-2023-01-22 18:35:14,913 TRACE c.s.c.u.ConnectionPool [main] password: 1234
-2023-01-22 18:35:15,636 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,677 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,677 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,682 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,682 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,691 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
-2023-01-22 18:35:15,691 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,692 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,696 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
-2023-01-22 18:35:15,736 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
-2023-01-22 18:35:15,737 TRACE c.s.c.Main [main] Parse xml using STAX
-2023-01-22 18:35:15,774 TRACE c.s.c.Main [main] Parse done using STAX
-2023-01-22 18:35:15,775 TRACE c.s.c.Main [main] Parse xml using JAXB
-2023-01-22 18:35:16,084 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
-2023-01-22 18:35:16,084 TRACE c.s.c.Main [main] Parse done using JAXB
-2023-01-22 18:35:16,085 TRACE c.s.c.Main [main] END
+2023-01-23 11:43:16,509 TRACE c.s.c.Main [main] START
+2023-01-23 11:43:16,535 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-23 11:43:16,535 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-23 11:43:16,536 TRACE c.s.c.u.ConnectionPool [main] userName: root
+2023-01-23 11:43:16,537 TRACE c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-23 11:43:17,587 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,696 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,697 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,709 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,709 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,726 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-23 11:43:17,726 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,727 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,735 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:17,776 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
+2023-01-23 11:43:17,777 TRACE c.s.c.Main [main] Parse xml using STAX
+2023-01-23 11:43:17,913 TRACE c.s.c.Main [main] 1 Piston ABC123
+2023-01-23 11:43:17,914 TRACE c.s.c.Main [main] 2 Valve DEF456
+2023-01-23 11:43:17,915 TRACE c.s.c.Main [main] Parse done using STAX
+2023-01-23 11:43:17,915 TRACE c.s.c.Main [main] Parse xml using JAXB
+2023-01-23 11:43:18,304 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
+2023-01-23 11:43:18,304 TRACE c.s.c.Main [main] Parse done using JAXB
+2023-01-23 11:43:18,305 TRACE c.s.c.Main [main] Test createEntity
+2023-01-23 11:43:18,305 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:18,306 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@3fa2213
+2023-01-23 11:43:50,132 TRACE c.s.c.Main [main] START
+2023-01-23 11:43:50,144 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-23 11:43:50,145 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-23 11:43:50,146 TRACE c.s.c.u.ConnectionPool [main] userName: root
+2023-01-23 11:43:50,146 TRACE c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-23 11:43:50,968 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,009 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,009 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,014 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,014 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,023 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-23 11:43:51,024 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,024 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,029 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,067 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
+2023-01-23 11:43:51,067 TRACE c.s.c.Main [main] Parse xml using STAX
+2023-01-23 11:43:51,109 TRACE c.s.c.Main [main] 1 Piston ABC123
+2023-01-23 11:43:51,110 TRACE c.s.c.Main [main] 2 Valve DEF456
+2023-01-23 11:43:51,111 TRACE c.s.c.Main [main] Parse done using STAX
+2023-01-23 11:43:51,111 TRACE c.s.c.Main [main] Parse xml using JAXB
+2023-01-23 11:43:51,509 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
+2023-01-23 11:43:51,510 TRACE c.s.c.Main [main] Parse done using JAXB
+2023-01-23 11:43:51,511 TRACE c.s.c.Main [main] Test createEntity
+2023-01-23 11:43:51,511 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:43:51,512 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:41,928 TRACE c.s.c.Main [main] START
+2023-01-23 11:44:41,942 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-23 11:44:41,943 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-23 11:44:41,944 TRACE c.s.c.u.ConnectionPool [main] userName: root
+2023-01-23 11:44:41,944 TRACE c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-23 11:44:42,776 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,820 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,820 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,825 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,826 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,838 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-23 11:44:42,839 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,840 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,846 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:44:42,886 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
+2023-01-23 11:44:42,886 TRACE c.s.c.Main [main] Parse xml using STAX
+2023-01-23 11:44:42,924 TRACE c.s.c.Main [main] 1 Piston ABC123
+2023-01-23 11:44:42,925 TRACE c.s.c.Main [main] 2 Valve DEF456
+2023-01-23 11:44:42,926 TRACE c.s.c.Main [main] Parse done using STAX
+2023-01-23 11:44:42,926 TRACE c.s.c.Main [main] Parse xml using JAXB
+2023-01-23 11:44:43,287 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
+2023-01-23 11:44:43,288 TRACE c.s.c.Main [main] Parse done using JAXB
+2023-01-23 11:44:43,288 TRACE c.s.c.Main [main] Test createEntity
+2023-01-23 11:45:13,199 TRACE c.s.c.Main [main] START
+2023-01-23 11:45:13,213 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-23 11:45:13,214 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-23 11:45:13,214 TRACE c.s.c.u.ConnectionPool [main] userName: root
+2023-01-23 11:45:13,215 TRACE c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-23 11:45:14,017 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,055 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,056 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,060 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,061 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,070 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-23 11:45:14,070 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,071 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,075 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,116 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
+2023-01-23 11:45:14,116 TRACE c.s.c.Main [main] Parse xml using STAX
+2023-01-23 11:45:14,156 TRACE c.s.c.Main [main] 1 Piston ABC123
+2023-01-23 11:45:14,157 TRACE c.s.c.Main [main] 2 Valve DEF456
+2023-01-23 11:45:14,157 TRACE c.s.c.Main [main] Parse done using STAX
+2023-01-23 11:45:14,158 TRACE c.s.c.Main [main] Parse xml using JAXB
+2023-01-23 11:45:14,487 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
+2023-01-23 11:45:14,487 TRACE c.s.c.Main [main] Parse done using JAXB
+2023-01-23 11:45:14,488 TRACE c.s.c.Main [main] Test createEntity
+2023-01-23 11:45:14,488 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:45:14,489 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:43,999 TRACE c.s.c.Main [main] START
+2023-01-23 11:46:44,010 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-23 11:46:44,011 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-23 11:46:44,011 TRACE c.s.c.u.ConnectionPool [main] userName: root
+2023-01-23 11:46:44,012 TRACE c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-23 11:46:44,799 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,843 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,843 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,848 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,849 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,858 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-23 11:46:44,859 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,859 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,864 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:44,907 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
+2023-01-23 11:46:44,907 TRACE c.s.c.Main [main] Parse xml using STAX
+2023-01-23 11:46:44,947 TRACE c.s.c.Main [main] 1 Piston ABC123
+2023-01-23 11:46:44,947 TRACE c.s.c.Main [main] 2 Valve DEF456
+2023-01-23 11:46:44,948 TRACE c.s.c.Main [main] Parse done using STAX
+2023-01-23 11:46:44,948 TRACE c.s.c.Main [main] Parse xml using JAXB
+2023-01-23 11:46:45,268 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
+2023-01-23 11:46:45,268 TRACE c.s.c.Main [main] Parse done using JAXB
+2023-01-23 11:46:45,269 TRACE c.s.c.Main [main] Test createEntity
+2023-01-23 11:46:45,269 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:45,310 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 11:46:45,313 TRACE c.s.c.Main [main] testUser3 auto generated id = 4
+2023-01-23 11:46:45,314 TRACE c.s.c.Main [main] End Test createEntity
+2023-01-23 11:46:45,314 TRACE c.s.c.Main [main] END
