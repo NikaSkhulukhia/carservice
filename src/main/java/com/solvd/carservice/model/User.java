@@ -30,6 +30,17 @@ public class User {
     public User() {
     }
 
+    public User(User user) {
+        this.id = user.getId();
+        this.firstName = user.getFirstName();
+        this.lastName = user.getLastName();
+        this.address = user.getAddress();
+        this.email = user.getEmail();
+        this.idNumber = user.getIdNumber();
+        this.phone = user.getPhone();
+        this.memberSince = user.getMemberSince();
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

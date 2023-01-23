@@ -92,6 +92,7 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
             statement.setDate(7, new java.sql.Date(user.getMemberSince().getTime()));
             statement.setLong(8, user.getId());
             statement.executeUpdate();
+            connection.commit();
             return user;
         } catch (SQLException e) {
             LOGGER.info(e);
@@ -108,6 +109,7 @@ public class UserDAO extends AbstractMysqlDAO implements IUserDAO {
         try (PreparedStatement statement = connection.prepareStatement(DELETE_USER)) {
             statement.setLong(1, user.getId());
             statement.executeUpdate();
+            connection.commit();
         } catch (SQLException e) {
             LOGGER.info(e);
         } finally {

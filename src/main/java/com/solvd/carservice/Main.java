@@ -92,9 +92,6 @@ public class Main {
         // user was not deleted from the database
         LOGGER.trace("End Test removeEntity");
 
-
-
-
         // END main
         LOGGER.trace("END");
     }

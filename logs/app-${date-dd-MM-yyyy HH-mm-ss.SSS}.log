@@ -347,3 +347,117 @@
 2023-01-23 13:02:50,091 TRACE c.s.c.Main [main] testUser3 was NOT deleted from the database.
 2023-01-23 13:02:50,091 TRACE c.s.c.Main [main] End Test removeEntity
 2023-01-23 13:02:50,092 TRACE c.s.c.Main [main] END
+2023-01-23 14:11:54,417 TRACE c.s.c.Main [main] START
+2023-01-23 14:11:54,432 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-23 14:11:54,432 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-23 14:11:54,433 TRACE c.s.c.u.ConnectionPool [main] userName: root
+2023-01-23 14:11:54,433 TRACE c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-23 14:11:55,301 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,345 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,345 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,352 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,352 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,364 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-23 14:11:55,365 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,365 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,373 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,417 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
+2023-01-23 14:11:55,417 TRACE c.s.c.Main [main] Parse xml using STAX
+2023-01-23 14:11:55,469 TRACE c.s.c.Main [main] 1 Piston ABC123
+2023-01-23 14:11:55,469 TRACE c.s.c.Main [main] 2 Valve DEF456
+2023-01-23 14:11:55,470 TRACE c.s.c.Main [main] Parse done using STAX
+2023-01-23 14:11:55,470 TRACE c.s.c.Main [main] Parse xml using JAXB
+2023-01-23 14:11:55,813 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
+2023-01-23 14:11:55,814 TRACE c.s.c.Main [main] Parse done using JAXB
+2023-01-23 14:11:55,814 TRACE c.s.c.Main [main] Test createEntity
+2023-01-23 14:11:55,814 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,833 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,836 TRACE c.s.c.Main [main] testUser3 auto generated id = 10
+2023-01-23 14:11:55,837 TRACE c.s.c.Main [main] End Test createEntity
+2023-01-23 14:11:55,837 TRACE c.s.c.Main [main] Test updateEntity
+2023-01-23 14:11:55,837 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,844 INFO c.s.c.d.m.UserDAO [main] java.sql.SQLException: Can't call commit when autocommit=true
+2023-01-23 14:11:55,844 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,844 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,846 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,847 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,849 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,849 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,851 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,851 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,853 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,853 TRACE c.s.c.Main [main] testUser3 updated mail: Bob.Bean@example.com
+2023-01-23 14:11:55,854 TRACE c.s.c.Main [main] testUser3 updated phone: 444-555-23456
+2023-01-23 14:11:55,854 TRACE c.s.c.Main [main] End Test updateEntity
+2023-01-23 14:11:55,854 TRACE c.s.c.Main [main] Test removeEntity
+2023-01-23 14:11:55,855 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,857 INFO c.s.c.d.m.UserDAO [main] java.sql.SQLException: Can't call commit when autocommit=true
+2023-01-23 14:11:55,857 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,857 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,860 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,860 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,862 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,862 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,864 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,864 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,867 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:11:55,867 TRACE c.s.c.Main [main] testUser3 was NOT deleted from the database.
+2023-01-23 14:11:55,867 TRACE c.s.c.Main [main] End Test removeEntity
+2023-01-23 14:11:55,868 TRACE c.s.c.Main [main] END
+2023-01-23 14:19:18,492 TRACE c.s.c.Main [main] START
+2023-01-23 14:19:18,508 INFO c.s.c.u.ConnectionPool [main] file loaded: 
+2023-01-23 14:19:18,509 TRACE c.s.c.u.ConnectionPool [main] url: jdbc:mysql://localhost:3306/mydb
+2023-01-23 14:19:18,510 TRACE c.s.c.u.ConnectionPool [main] userName: root
+2023-01-23 14:19:18,510 TRACE c.s.c.u.ConnectionPool [main] password: 1234
+2023-01-23 14:19:19,330 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,369 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,369 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,375 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,375 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,387 INFO c.s.c.d.m.ServiceOrderDAO [main] java.sql.SQLDataException: Unsupported conversion from LONG to java.sql.Date
+2023-01-23 14:19:19,387 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,388 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,393 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,435 TRACE c.s.c.Main [main] user: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=2022-01-01, cars=[Car{id=3, year=2022-06-01, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=2022-07-01, orderStatus=PENDING}]}
+2023-01-23 14:19:19,436 TRACE c.s.c.Main [main] Parse xml using STAX
+2023-01-23 14:19:19,495 TRACE c.s.c.Main [main] 1 Piston ABC123
+2023-01-23 14:19:19,496 TRACE c.s.c.Main [main] 2 Valve DEF456
+2023-01-23 14:19:19,497 TRACE c.s.c.Main [main] Parse done using STAX
+2023-01-23 14:19:19,497 TRACE c.s.c.Main [main] Parse xml using JAXB
+2023-01-23 14:19:19,910 TRACE c.s.c.Main [main] user from jaxb unmarshall: User{id=0, firstName='Jane', lastName='Doe', idNumber='0987654321', phone='0987654321', email='janedoe@email.com', address='456 Park Ave', memberSince=Sat Jan 01 00:00:00 GET 2022, cars=[Car{id=3, year=Wed Jun 01 00:00:00 GET 2022, userId=1, carBrandId=3, brandModelId=3, licensePlate='MNO112', currentMileage='150000', color=BLACK, serviceOrders=null}], serviceOrders=null, shopOrders=[ShopOrder{id=1, userId=1, shopId=1, carPartsId=1, date=Fri Jul 01 00:00:00 GET 2022, orderStatus=PENDING}]}
+2023-01-23 14:19:19,910 TRACE c.s.c.Main [main] Parse done using JAXB
+2023-01-23 14:19:19,910 TRACE c.s.c.Main [main] Test createEntity
+2023-01-23 14:19:19,911 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,929 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,932 TRACE c.s.c.Main [main] testUser3 auto generated id = 11
+2023-01-23 14:19:19,932 TRACE c.s.c.Main [main] End Test createEntity
+2023-01-23 14:19:19,933 TRACE c.s.c.Main [main] Test updateEntity
+2023-01-23 14:19:19,933 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,941 INFO c.s.c.d.m.UserDAO [main] java.sql.SQLException: Can't call commit when autocommit=true
+2023-01-23 14:19:19,941 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,942 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,944 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,944 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,946 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,947 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,949 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,950 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,952 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,952 TRACE c.s.c.Main [main] testUser3 updated mail: Bob.Bean@example.com
+2023-01-23 14:19:19,953 TRACE c.s.c.Main [main] testUser3 updated phone: 444-555-23456
+2023-01-23 14:19:19,953 TRACE c.s.c.Main [main] End Test updateEntity
+2023-01-23 14:19:19,953 TRACE c.s.c.Main [main] Test removeEntity
+2023-01-23 14:19:19,954 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,955 INFO c.s.c.d.m.UserDAO [main] java.sql.SQLException: Can't call commit when autocommit=true
+2023-01-23 14:19:19,956 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,956 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,958 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,959 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,961 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,961 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,963 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,964 INFO c.s.c.u.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,965 INFO c.s.c.u.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@549949be
+2023-01-23 14:19:19,965 TRACE c.s.c.Main [main] testUser3 was NOT deleted from the database.
+2023-01-23 14:19:19,966 TRACE c.s.c.Main [main] End Test removeEntity
+2023-01-23 14:19:19,966 TRACE c.s.c.Main [main] END
