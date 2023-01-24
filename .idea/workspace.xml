@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab92e97f-c654-4a3c-8150-1bc5b13a9859" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/json/CarBrandModels.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/json/CarBrands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/json/CarPartCategories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/json/CarParts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/json/ShopOrders.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/CarBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/CarBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/ShopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/ShopOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1674389681178" duration="8570000" />
       <workItem from="1674404704845" duration="327000" />
       <workItem from="1674408287034" duration="4000000" />
-      <workItem from="1674463708110" duration="10927000" />
+      <workItem from="1674463708110" duration="12968000" />
     </task>
     <servers />
   </component>

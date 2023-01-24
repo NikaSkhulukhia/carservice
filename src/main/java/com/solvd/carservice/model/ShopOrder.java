@@ -1,16 +1,25 @@
 package com.solvd.carservice.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.solvd.carservice.enums.OrderStatus;
 
 import java.util.Date;
 import java.util.Objects;
 
 public class ShopOrder {
+    @JsonProperty("id")
     private long id;
+    @JsonProperty("user_id")
     private long userId;
+    @JsonProperty("shop_id")
     private long shopId;
+    @JsonProperty("car_parts_id")
     private long carPartsId;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @JsonProperty("id")
     private Date date;
+    @JsonProperty("order_status")
     private OrderStatus orderStatus;
 
     public ShopOrder() {

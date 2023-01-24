@@ -1,16 +1,21 @@
 package com.solvd.carservice.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.solvd.carservice.enums.Country;
 
 import java.util.List;
 import java.util.Objects;
 
 public class CarBrand {
-
+    @JsonProperty("id")
     private long id;
+    @JsonProperty("name")
     private String name;
+    @JsonProperty("country_of_origin")
     private Country countryOfOrigin;
+    @JsonProperty("carBrandModels")
     private List<CarBrandModel> carBrandModels;
+    @JsonProperty("cars")
     private List<Car> cars;
 
     public CarBrand() {
