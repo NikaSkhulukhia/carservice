@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "userId": 1,
+  "shopId": 1,
+  "carPartsId": 1,
+  "date": "2022-01-01",
+  "orderStatus": "PENDING"
+}

@@ -10,19 +10,22 @@ import java.util.Objects;
 public class ShopOrder {
     @JsonProperty("id")
     private long id;
-    @JsonProperty("user_id")
+    @JsonProperty("userId")
     private long userId;
-    @JsonProperty("shop_id")
+    @JsonProperty("shopId")
     private long shopId;
-    @JsonProperty("car_parts_id")
+    @JsonProperty("carPartsId")
     private long carPartsId;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    @JsonProperty("id")
+    @JsonProperty("date")
     private Date date;
-    @JsonProperty("order_status")
+    @JsonProperty("orderStatus")
     private OrderStatus orderStatus;
 
     public ShopOrder() {
+    }
+
+    public ShopOrder(int i, int i1, int i2, long l, Date d, OrderStatus st) {
     }
 
     @Override

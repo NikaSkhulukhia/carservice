@@ -3,6 +3,8 @@ package com.solvd.carservice;
 import com.solvd.carservice.model.CarPart;
 import com.solvd.carservice.model.User;
 import com.solvd.carservice.service.UserService;
+import com.solvd.carservice.util.JsonFileWriterExample;
+import com.solvd.carservice.util.ShopOrdersJSONParser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,6 +13,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
@@ -91,6 +94,21 @@ public class Main {
         // TODO
         // user was not deleted from the database
         LOGGER.trace("End Test removeEntity");
+
+        // Test json parser using jackson
+        LOGGER.trace("Test ShopOrdersJSONParser");
+        try {
+            ShopOrdersJSONParser.parseShopOrdersJSON();
+        } catch (IOException e) {
+            LOGGER.info(e);
+        }
+        LOGGER.trace("End Test ShopOrdersJSONParser");
+
+        // Test json parser using jackson
+        LOGGER.trace("Test JsonFileWriterExample");
+        JsonFileWriterExample.parse();
+        LOGGER.trace("End Test JsonFileWriterExample");
+
 
         // END main
         LOGGER.trace("END");
