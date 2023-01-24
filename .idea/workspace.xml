@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/logs/app-${date-dd-MM-yyyy HH-mm-ss.SSS}.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-${date-dd-MM-yyyy HH-mm-ss.SSS}.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/dao/mysql/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/carservice/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <workItem from="1674389681178" duration="8570000" />
       <workItem from="1674404704845" duration="327000" />
       <workItem from="1674408287034" duration="4000000" />
-      <workItem from="1674463708110" duration="2858000" />
+      <workItem from="1674463708110" duration="7713000" />
     </task>
     <servers />
   </component>

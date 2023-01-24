@@ -77,7 +77,7 @@ public class Main {
         LOGGER.trace("testUser3 updated mail: " + testUser3b.getEmail());
         LOGGER.trace("testUser3 updated phone: " + testUser3b.getPhone());
         // TODO
-        // user was not updated.
+        // user was not updated. / user was updated but, returned address instead of phone. and phone instead of mail.
         LOGGER.trace("End Test updateEntity");
 
         LOGGER.trace("Test removeEntity");
