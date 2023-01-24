@@ -1,0 +1,28 @@
+{
+  "carParts": [
+    {
+      "id": 1,
+      "name": "Tire",
+      "serialNumber": "123ABC",
+      "price": 100.00,
+      "carPartCategoryId": 1,
+      "shopId": 1
+    },
+    {
+      "id": 2,
+      "name": "Battery",
+      "serialNumber": "456DEF",
+      "price": 75.00,
+      "carPartCategoryId": 2,
+      "shopId": 2
+    },
+    {
+      "id": 3,
+      "name": "Oil Filter",
+      "serialNumber": "789GHI",
+      "price": 20.00,
+      "carPartCategoryId": 3,
+      "shopId": 1
+    }
+  ]
+}

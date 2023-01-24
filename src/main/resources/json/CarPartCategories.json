@@ -1,0 +1,70 @@
+{
+  "carPartCategories": [
+    {
+      "id": 1,
+      "name": "Tires",
+      "carParts": [
+        {
+          "id": 1,
+          "name": "Summer Tires",
+          "serialNumber": "123ABC",
+          "price": 100.00,
+          "carPartCategoryId": 1,
+          "shopId": 1
+        },
+        {
+          "id": 2,
+          "name": "Winter Tires",
+          "serialNumber": "456DEF",
+          "price": 120.00,
+          "carPartCategoryId": 1,
+          "shopId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Battery",
+      "carParts": [
+        {
+          "id": 3,
+          "name": "Lead-Acid Battery",
+          "serialNumber": "789GHI",
+          "price": 75.00,
+          "carPartCategoryId": 2,
+          "shopId": 1
+        },
+        {
+          "id": 4,
+          "name": "Lithium-Ion Battery",
+          "serialNumber": "012JKL",
+          "price": 150.00,
+          "carPartCategoryId": 2,
+          "shopId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Filters",
+      "carParts": [
+        {
+          "id": 5,
+          "name": "Air Filter",
+          "serialNumber": "345MNO",
+          "price": 20.00,
+          "carPartCategoryId": 3,
+          "shopId": 1
+        },
+        {
+          "id": 6,
+          "name": "Fuel Filter",
+          "serialNumber": "678PQR",
+          "price": 15.00,
+          "carPartCategoryId": 3,
+          "shopId": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1,
+  "name": "Tesla",
+  "countryOfOrigin": "USA",
+  "carBrandModels": [
+    {
+      "id": 1,
+      "name": "Model S",
+      "carBrandId": 1,
+      "fuelType": "Electric",
+      "transmission": "Auto",
+      "cars": [
+        {
+          "id": 1,
+          "year": "2022-01-01",
+          "userId": 1,
+          "carBrandId": 1,
+          "brandModelId": 1,
+          "licensePlate": "ABC-123",
+          "currentMileage": "10000",
+          "color": "Red"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Model X",
+      "carBrandId": 1,
+      "fuelType": "Electric",
+      "transmission": "Auto",
+      "cars": [
+        {
+          "id": 2,
+          "year": "2022-01-01",
+          "userId": 2,
+          "carBrandId": 1,
+          "brandModelId": 2,
+          "licensePlate": "XYZ-987",
+          "currentMileage": "20000",
+          "color": "Blue"
+        }
+      ]
+    }
+  ]
+}

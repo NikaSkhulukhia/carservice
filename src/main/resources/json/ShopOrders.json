@@ -1,0 +1,28 @@
+{
+  "shopOrders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "shopId": 1,
+      "carPartsId": [1, 2],
+      "date": "2022-01-01",
+      "orderStatus": "Pending"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "shopId": 2,
+      "carPartsId": [3],
+      "date": "2022-01-02",
+      "orderStatus": "Shipped"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "shopId": 1,
+      "carPartsId": [4, 5, 6],
+      "date": "2022-01-03",
+      "orderStatus": "Completed"
+    }
+  ]
+}
